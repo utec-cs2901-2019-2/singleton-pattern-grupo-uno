@@ -1,4 +1,4 @@
-public class ChocolateBoiler {
+public class    ChocolateBoiler {
     private boolean empty;
     private boolean boiled;
 
