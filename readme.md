@@ -34,4 +34,4 @@ public class Singleton {
     return instance;
 ```
 ### What happens if more than one instance is created?
- - Second instance might try to reboil milk, or waste electricity wating for milk , or burn because all of the milk has gone to another boiler.
+ - Second instance might try to reboil milk, or waste electricity wating for milk , or burn because all of the milk has gone to another boiler. Furthermore, 2 boilers might pick up the same milk object and make 2 bars, when we did't actually have the milk for them!
